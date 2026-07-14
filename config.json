@@ -1,0 +1,16 @@
+{
+  "watch_dir": "/home/cameraftp/upload",
+  "endpoints": [
+    "https://localhost:3891/vsol/vigl5f"
+  ],
+  "camera_name_map": {
+    "Camera 2": "Camera1",
+    "Camera 3": "Camera2"
+  },
+  "poll_seconds": 2,
+  "delete_after_seconds": 10800,
+  "request_timeout_seconds": 10,
+  "verify_tls": false,
+  "log_file": "/var/log/cmprs_xml_forwarder.log",
+  "max_log_bytes": 104857600
+}
